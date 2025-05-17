@@ -38,7 +38,7 @@
             <video id="backgroundVideo" class="position: fixed; top: 0; left: 0; width: 100vw; height: 100vh; z-index: -1; object-fit: cover; -o-object-fit: cover; hidden" muted loop playsinline draggable="false" onerror='this.style.display="none"'>
                 <source id="backgroundVideoSource" type="video/mp4" draggable="false" onerror='this.style.display="none"'>
             </video>
-            <img id="backgroundImage" class="fixed top-0 left-0 w-screen h-screen object-cover z-[-1] blur-[10px]" draggable="false" onerror='this.style.display="none"'>
+            <img id="backgroundImage" class="position: fixed; top: 0; left: 0; width: 100vw; height: 100vh; z-index: -1; object-fit: cover; -o-object-fit: cover; hidden" style="filter: blur(5px);" draggable="false" onerror='this.style.display="none"'>
             <img id="backgroundGif" class="position: fixed; top: 0; left: 0; width: 100vw; height: 100vh; z-index: -1; object-fit: cover; -o-object-fit: cover; hidden" draggable="false" onerror='this.style.display="none"'>
         </div>
         <div id="enterScreen" class="fixed inset-0 flex justify-center items-center" style="background-color:rgba(0,0,0);backdrop-filter:blur(15px);-webkit-backdrop-filter:blur(15px);z-index:999" onclick="enter()">
